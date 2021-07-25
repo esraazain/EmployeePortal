@@ -1,0 +1,10 @@
+E:\test\EmployeePortal\Logger\bin\Debug\Logger.dll
+E:\test\EmployeePortal\Logger\bin\Debug\Logger.pdb
+E:\test\EmployeePortal\Logger\obj\Debug\Logger.csproj.CoreCompileInputs.cache
+E:\test\EmployeePortal\Logger\obj\Debug\Logger.dll
+E:\test\EmployeePortal\Logger\obj\Debug\Logger.pdb
+D:\Esraa\Esraa\Level4\second term\Sa2\project\new project\EmployeePortal\Logger\bin\Debug\Logger.dll
+D:\Esraa\Esraa\Level4\second term\Sa2\project\new project\EmployeePortal\Logger\bin\Debug\Logger.pdb
+D:\Esraa\Esraa\Level4\second term\Sa2\project\new project\EmployeePortal\Logger\obj\Debug\Logger.csproj.CoreCompileInputs.cache
+D:\Esraa\Esraa\Level4\second term\Sa2\project\new project\EmployeePortal\Logger\obj\Debug\Logger.dll
+D:\Esraa\Esraa\Level4\second term\Sa2\project\new project\EmployeePortal\Logger\obj\Debug\Logger.pdb

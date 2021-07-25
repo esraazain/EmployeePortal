@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Web.BundleConfig">
+    <Position X="11" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\BundleConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Web.FilterConfig">
+    <Position X="17" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\FilterConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Web.RouteConfig">
+    <Position X="13" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\RouteConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Web.ComputerSystem">
+    <Position X="13" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAIAAAAAAAAQAAAAAAEAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Builder\Product\ComputerSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Web.MvcApplication">
+    <Position X="20.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Global.asax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Web.Builder.ConcreteBuilder.DesktopBuilder" BaseTypeListCollapsed="true">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAEAAAAAAAAABAAAAAABBAAAACAAACAAAA=</HashCode>
+      <FileName>Builder\ConcreteBuilder\DesktopBuilder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Web.Builder.ConcreteBuilder.LaptopBuilder" BaseTypeListCollapsed="true">
+    <Position X="16.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAABAAEAAABBAAAACAAACAAAA=</HashCode>
+      <FileName>Builder\ConcreteBuilder\LaptopBuilder.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Web.Builder.Director.ConfigurationBuilder">
+    <Position X="14.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Builder\Director\ConfigurationBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Web.Controllers.BaseController" Collapsed="true">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Controllers\BaseController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Web.Controllers.EmployeesController">
+    <Position X="8.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACARAACAAAAAAAAAAAEAAEACBAMAAAAAgAA=</HashCode>
+      <FileName>Controllers\EmployeesController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Web.Controllers.HomeController">
+    <Position X="18.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEACAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\HomeController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Web.Factory.AbstractFactory.EmployeeSystemManager">
+    <Position X="13" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\AbstractFactory\Client\EmployeeSystemManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Web.Factory.AbstractFactory.DellFactory">
+    <Position X="5.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlAAA=</HashCode>
+      <FileName>Factory\AbstractFactory\ConcreteFactory\DellFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Web.Factory.AbstractFactory.DellLaptopFactory">
+    <Position X="5.25" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Factory\AbstractFactory\ConcreteFactory\DellFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Web.Factory.AbstractFactory.EmployeeSystemFactory">
+    <Position X="11" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\AbstractFactory\ConcreteFactory\EmployeeSystemFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Web.Factory.AbstractFactory.MACFactory">
+    <Position X="2.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlAAA=</HashCode>
+      <FileName>Factory\AbstractFactory\ConcreteFactory\MACFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Web.Factory.AbstractFactory.MACLaptopFactory">
+    <Position X="1.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Factory\AbstractFactory\ConcreteFactory\MACFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Web.Factory.AbstractFactory.Laptop" BaseTypeListCollapsed="true">
+    <Position X="15" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Factory\AbstractFactory\ConcreteProduct\ComputerSystemType.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Web.Factory.AbstractFactory.Desktop" BaseTypeListCollapsed="true">
+    <Position X="20" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Factory\AbstractFactory\ConcreteProduct\ComputerSystemType.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Web.Factory.AbstractFactory.DELL" BaseTypeListCollapsed="true">
+    <Position X="18.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Factory\AbstractFactory\ConcreteProduct\DELL.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Web.Factory.AbstractFactory.MAC" BaseTypeListCollapsed="true">
+    <Position X="18.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Factory\AbstractFactory\ConcreteProduct\MAC.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Web.Factory.AbstractFactory.I7" BaseTypeListCollapsed="true">
+    <Position X="13" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Factory\AbstractFactory\ConcreteProduct\Processors.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Web.Factory.AbstractFactory.I5" BaseTypeListCollapsed="true">
+    <Position X="11" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Factory\AbstractFactory\ConcreteProduct\Processors.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Web.Factory.AbstractFactory.I3" BaseTypeListCollapsed="true">
+    <Position X="20.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Factory\AbstractFactory\ConcreteProduct\Processors.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Web.Factory.AbstractFactory.Enumerations">
+    <Position X="14.75" Y="8.25" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="Web.Factory.AbstractFactory.Enumerations.ComputerTypes" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Factory\AbstractFactory\Enumerations.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="Web.Factory.AbstractFactory.Enumerations.Brands" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Factory\AbstractFactory\Enumerations.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="Web.Factory.AbstractFactory.Enumerations.Processors" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Factory\AbstractFactory\Enumerations.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\AbstractFactory\Enumerations.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Web.Factory.EmployeeManagerFactory">
+    <Position X="18.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\EmployeeManagerFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Web.Factory.FactoryMethod.BaseEmployeeFactory">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAQAA=</HashCode>
+      <FileName>Factory\FactoryMethod\BaseEmployeeFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Web.Factory.FactoryMethod.ContractEmployeeFactory">
+    <Position X="1.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\FactoryMethod\ContractEmployeeFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Web.Factory.FactoryMethod.EmployeeManagerFactory">
+    <Position X="16.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\FactoryMethod\EmployeeManagerFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Web.Factory.FactoryMethod.PermanentEmployeeFactory">
+    <Position X="5.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\FactoryMethod\PermanentEmployeeFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Web.Managers.ContractEmployeeManager" BaseTypeListCollapsed="true">
+    <Position X="16" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAgAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Managers\ContractEmployeeManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Web.Managers.PermanentEmployeeManager" BaseTypeListCollapsed="true">
+    <Position X="11" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAACAAAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Managers\PermanentEmployeeManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Web.Models.EmployeePortalEntities">
+    <Position X="20.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\EmployeeModel.Context.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Web.Models.Employee">
+    <Position X="13" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgACAAAAAAAAEAAAAEIAAEQAEgAAAAAAAQAAAgAAAAE=</HashCode>
+      <FileName>Models\Employee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Web.Models.Employee_Type">
+    <Position X="14.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAABAAAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Employee_Type.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Logger.Log">
+    <Position X="8.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Web.Builder.IBuilder.ISystemBuilder">
+    <Position X="18.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAABAAAAAABBAAAACAAACAAAA=</HashCode>
+      <FileName>Builder\IBuilder\ISystemBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Web.Factory.AbstractFactory.IComputerFactory">
+    <Position X="13" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlAAA=</HashCode>
+      <FileName>Factory\AbstractFactory\AbstractInterface\IComputerFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Web.Factory.AbstractFactory.IBrand">
+    <Position X="11" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Factory\AbstractFactory\AbstractProduct\IBrand.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Web.Factory.AbstractFactory.IProcessor">
+    <Position X="16.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Factory\AbstractFactory\AbstractProduct\IProcessor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Web.Factory.AbstractFactory.ISystemType">
+    <Position X="20.25" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Factory\AbstractFactory\AbstractProduct\ISystemType.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Web.Managers.IEmployeeManager">
+    <Position X="15" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Managers\IEmployeeManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Logger.ILog">
+    <Position X="8.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
